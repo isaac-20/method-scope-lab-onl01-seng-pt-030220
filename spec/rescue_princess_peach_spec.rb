@@ -6,4 +6,5 @@ describe rescue_princess_peach do
     expect{puts status}.to raise_error(NameError)
   end 
 end
-rescue_princess_peach
+def rescue_princess_peach(status)
+  status
